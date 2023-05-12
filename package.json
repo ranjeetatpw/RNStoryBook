@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "start:storybook": "STORYBOOK_VARIANT=true react-native start",
+    "start:storybook": "react-native start --config ./.storybook/metro.config.js",
     "test": "jest",
     "storybook-generate": "sb-rn-get-stories",
     "storybook-watch": "sb-rn-watcher"
