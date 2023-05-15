@@ -25,6 +25,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import Storybook from './.storybook';
+
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
@@ -60,6 +62,7 @@ function App(): JSX.Element {
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+    flex: 1
   };
 
   return (
@@ -92,6 +95,7 @@ function App(): JSX.Element {
           <LearnMoreLinks />
         </View>
       </ScrollView>
+      {/* <Storybook /> */}
     </SafeAreaView>
   );
 }

@@ -6,4 +6,4 @@ import './storybook.requires';
 
 const StorybookUIRoot = getStorybookUI({});
 
-AppRegistry.registerComponent(appName, () => StorybookUIRoot);
+export default StorybookUIRoot;
